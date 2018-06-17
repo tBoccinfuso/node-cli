@@ -1,0 +1,12 @@
+{
+  "name": "express-template-cli",
+  "version": "1.0.1",
+  "bin": {
+    "express-template": "bin/pullExpressTemplate.js",
+    "express-template-mongo": "bin/pullExpressTemplate-Mongo.js",
+    "express-template-mysql": "bin/pullExpressTemplate-MySQL.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.2"
+  }
+}
